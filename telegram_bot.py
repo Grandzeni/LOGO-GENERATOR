@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "7981635084:AAEy6hoDvro82HGkboXPjX5nbNYUYnZjbGk"  
+TOKEN = "YOUR GENERATED TOKEN"  
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! Send me a description ")
